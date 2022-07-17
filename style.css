@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(Pic1.jpg);
+    background:  #EB1D36;
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
@@ -10,8 +10,8 @@ body{
 .Loginbox{
     width:320px;
     height:420px;
-    background: transparent;
-    color: #fff;
+    background: #F5EDDC ;
+    color: black;
     top: 50%;
     left: 50%;
     position: absolute;
@@ -47,11 +47,23 @@ h1{
 .Loginbox input[type="text"], input[type="password"]
 {
     border:none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid black;
     background: transparent;
     outline: nome;
     height:40px;
-    color:#fff;
+    color:black;
     font-size: 16px;
 
+}
+.Loginbox input[type="submit"]
+{
+    background-color: #EB1D36;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 16px 16px;
+    font-size: 20px;
+    
+    cursor: pointer;
 }
