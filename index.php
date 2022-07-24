@@ -1,5 +1,6 @@
 <?php 
 include "include/db.php";
+
 if(isset($_POST["submit"]) && !empty($_POST["username"]) && !empty($_POST["password"])){
     $uname=mysqli_real_escape_string($connect,$_POST["username"]);
     $pword=mysqli_real_escape_string($connect,$_POST["password"]);
